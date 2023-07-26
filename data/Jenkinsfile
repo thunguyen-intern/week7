@@ -1,8 +1,11 @@
 pipeline {
-    agent any
+    agent {
+        label 'odoo1'
+    }
+
     environment {
         DOCKER_COMPOSE = 'docker-compose.yml'
-        DOCKERHUB_CREDENTIALS = credentials('DockerAccessToken')
+        DOCKERHUB_CREDENTIALS = credentials('dockerhub')
         DOCKER_IMAGE = 'hikari141/srv:latest'
         DOCKER_IMAGE_NAME = 'odoo_15'
         FAILED_STAGE = ''
