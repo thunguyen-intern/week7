@@ -1,8 +1,0 @@
-./data
-./nginx
-docker-compose.yml
-Dockerfile
-Jenkinsfile
-notification.py
-README.md
-run.sh

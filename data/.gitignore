@@ -1,8 +1,0 @@
-run.sh
-requirements.txt
-upgrade_module.yaml
-odoo.conf
-data
-nginx
-unit_test
-customized_addons
